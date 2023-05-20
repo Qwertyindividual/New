@@ -195,6 +195,14 @@ export default createStore({
        {
         id: 3,
         goal: "Gain more work experience"
+       },
+       {
+        id: 4,
+        goal: "Partake in an Internship"
+       },
+       {
+        id: 5,
+        goal: ""
        }
     ],
     long: [

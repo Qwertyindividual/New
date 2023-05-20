@@ -37,7 +37,7 @@
           </div>
           <div class="col col-2">
             <router-link to="/about" class="nav-link">
-              <i class="fa-solid fa-house fa-lg" style="color: #000000"></i>
+              <i class="fa-solid fa-address-card fa-lg" style="color: #000000;"></i>
               <span class="nav-item">About</span>
             </router-link>
           </div>
@@ -159,6 +159,7 @@ i {
   border-top: solid 1px black;
   overflow-x: auto;
   display: flex;
+  background: white;
 }
 
 .nav-link {
