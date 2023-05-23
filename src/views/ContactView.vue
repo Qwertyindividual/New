@@ -4,7 +4,7 @@
     <!-- <img src="https://i.postimg.cc/3RyDsYrS/My-project.jpg" alt="Cute baby elephant and its mother"> -->
 
     <div class="columns">
-      <div class="col col-4 text-start">
+      <div class="col col-4 text-start info">
         <h6 class="sub-heading">Contact Me</h6>
         <h2 class="main-heading">Get in touch with me!</h2>
         <div class="columns">
@@ -29,12 +29,12 @@
       </div>
       <div class="col col-5 col-bg">
         <div class="contact">
-          <div class="inputbox text-start">
+          <div class="inputbox text-start name">
             <input type="text" for="name" required />
             <span>Name</span>
             <i></i>
           </div>
-          <div class="inputbox">
+          <div class="inputbox surname">
             <input type="text" for="surname" required />
             <span>Surname</span>
             <i></i>
@@ -70,13 +70,14 @@
       <div class="col col-6">
         <div class="columns text-center">
           <i class="fa-solid fa-phone fa-lg icon" style="color: #ffffff"></i>
-          <div class="info">Phone Number: 0736164107</div>
+          <div class="info">073-6164-107</div>
         </div>
       </div>
       <div class="col col-6">
         <div class="columns text-center">
           <i class="fa-solid fa-envelope fa-lg icon" style="color: #ffffff"></i>
-          <div class="info">Email Address: brandtkauthar@gmail.com</div>
+          <div class="info">brandtkauthar@gmail.com</div>
+          <i class="fa-solid fa-clipboard fa-lg icon" style="color: #ffffff;"></i>
         </div>
       </div>
       <div class="col col-6">
@@ -85,7 +86,7 @@
             class="fa-solid fa-location-pin fa-lg icon"
             style="color: #ffffff"
           ></i>
-          <div class="info">Location: Mitchells Plain</div>
+          <div class="info">Mitchells Plain</div>
         </div>
       </div>
     </div>
@@ -113,7 +114,7 @@ h1 {
 
 .main-heading {
   font-family: "Playfair Display";
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #52b788;
 }
 
@@ -125,9 +126,6 @@ h1 span {
   color: #40916c;
 }
 
-p {
-  margin-top: 0;
-}
 
 img {
   max-width: 100%;
@@ -145,6 +143,7 @@ img {
 .icon {
   background: #2d6a4f;
   padding: 1rem;
+  border: none;
 }
 
 .contact {
@@ -153,11 +152,19 @@ img {
   align-items: flex-start;
 }
 
+.name, .surname{
+  margin-top: 2em;
+}
+
 .columns {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin: 2em 0;
+}
+
+.info {
+  margin-top: 12%;
 }
 
 @media (max-width: 600px) {
@@ -210,7 +217,7 @@ img {
 .inputbox {
   position: relative;
   width: 45%;
-  margin-bottom: 1.3em;
+  margin-bottom: 2.5em;
 }
 
 .email {

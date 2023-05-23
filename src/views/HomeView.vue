@@ -36,11 +36,11 @@
     </div>
     <hr />
     <div class="columns">
-      <button class="bg-transparent">
-        <router-link to="/about" class="nav-link">Learn More</router-link>
+      <button class="learn">
+        <router-link to="/about" class="nav-link learn">Learn More</router-link>
       </button>
-      <button class="bg-transparent">
-        <router-link to="/contact" class="nav-link">Contact Me</router-link>
+      <button class="bg-transparent contact">
+        <router-link to="/contact" class="nav-link contact">Contact Me</router-link>
       </button>
     </div>
   </div>
@@ -91,5 +91,16 @@ button {
 
 .text {
   color: #2D6A4F;
+}
+
+.learn {
+  background: #2D6A4F;
+  color: white;
+  border: none;
+
+}
+
+.contact {
+  color:#2D6A4F ;
 }
 </style>

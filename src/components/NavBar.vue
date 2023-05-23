@@ -8,7 +8,7 @@
     aria-controls="offcanvasRight"
   >
     <!-- <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i> -->
-    <i class="fa-solid fa-burger fa-xl" style="color: #2D6A4F;"></i>
+    <i class="fa-solid fa-burger fa-xl burger" style="color: #2D6A4F;"></i>
   </button>
 
   <div
