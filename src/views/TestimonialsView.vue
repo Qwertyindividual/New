@@ -1,7 +1,14 @@
 <template>
+
+<header class="page-header">
+  <div class="container flow">
+    <p class="page-subtitle text-start">Hear what they have to say!</p>
+    <h1 class="page-title text-start">Testimonials</h1>
+    </div>
+</header>
     <div class="contain">
         <div class="container">
-<h1>Testimonials-Hear what they have to say</h1>
+
 
 <div class="container">
   <div class="row">
@@ -24,19 +31,31 @@
   </div>
 </div>
     </div>
+    <FooterComponent/>
 </template>
 
 <script>
+import FooterComponent from '@/components/FooterComponent.vue';
     export default {
-        computed: {
+    computed: {
         Testimonials() {
-            return this.$store.state.testimonials
+            return this.$store.state.testimonials;
         }
-    }
-    }
+    },
+    components: { FooterComponent }
+}
 </script>
 
 <style scoped>
+@import "https://unpkg.com/open-props";
+.page-header {
+  padding-block: var(--size-9);
+  /* margin-block-end: var(--size-9); */
+  background: linear-gradient(90deg, #081C15,#1B4332, #2D6A4F, #40916C, #52B788);
+  color: var(--gray-0);
+  box-shadow: var(--shadow-2);
+  font-family: "Playfair Display";
+}
 
 h1 {
     font-family: "Playfair Display";
@@ -46,13 +65,13 @@ width: 100%;
 aspect-ratio: 1/1;
 }
 
-
+/* 
 .contain {
     background: #D8F3DC;
-}
+} */
 .container {
     inset: 0;
-    margin: auto;
+    margin: 4em auto;
     width: 95%;
 }
 .card {
@@ -96,7 +115,9 @@ aspect-ratio: 1/1;
 }
 
 
-
+.page-title {
+  letter-spacing: 4px;
+}
 .profile-info {
   font-weight: 300;
   opacity: .7;

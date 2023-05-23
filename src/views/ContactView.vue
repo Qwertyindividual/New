@@ -4,14 +4,14 @@
     <!-- <img src="https://i.postimg.cc/3RyDsYrS/My-project.jpg" alt="Cute baby elephant and its mother"> -->
 
     <div class="columns">
-      <div class="col col-4 text-start info">
+      <div class="col col-4 text-start text">
         <h6 class="sub-heading">Contact Me</h6>
         <h2 class="main-heading">Get in touch with me!</h2>
         <div class="columns">
           <a
             href="https://github.com/Qwertyindividual"
             target="_blank"
-            class="col-1"
+            class="col-7"
             ><i
               class="fa-brands fa-github fa-xl social"
               style="color: #635f5f"
@@ -19,7 +19,7 @@
           ></a>
           <a
             href="https://www.linkedin.com/in/kauthar-brandt-6a3838219/"
-            class="col-3 fw-bold"
+            class="col-8 fw-bold"
             ><i
               class="fa-brands fa-linkedin fa-xl social"
               style="color: #635f5f"
@@ -77,7 +77,6 @@
         <div class="columns text-center">
           <i class="fa-solid fa-envelope fa-lg icon" style="color: #ffffff"></i>
           <div class="info">brandtkauthar@gmail.com</div>
-          <i class="fa-solid fa-clipboard fa-lg icon" style="color: #ffffff;"></i>
         </div>
       </div>
       <div class="col col-6">
@@ -91,10 +90,16 @@
       </div>
     </div>
   </div>
+  <FooterComponent/>
 </template>
 
 <script>
-export default {};
+import FooterComponent from '@/components/FooterComponent.vue';
+export default {
+  components: {
+    FooterComponent
+  }
+};
 </script>
 
 <style scoped>
@@ -126,6 +131,10 @@ h1 span {
   color: #40916c;
 }
 
+
+.text {
+  margin-top: 12%;
+}
 
 img {
   max-width: 100%;
@@ -163,9 +172,6 @@ img {
   margin: 2em 0;
 }
 
-.info {
-  margin-top: 12%;
-}
 
 @media (max-width: 600px) {
   .columns {
@@ -175,6 +181,14 @@ img {
 
 .col-1 {
   width: 20%;
+}
+
+.col-7 {
+  width: 10px;
+}
+
+.col-8 {
+  width: 90%;
 }
 
 .col-2 {

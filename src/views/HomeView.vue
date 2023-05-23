@@ -4,8 +4,8 @@
     <h1 class="text-start"> <span class="text">Web</span> Developer <span class="symbol">&amp;</span></h1>
     <h1 class="text-start">An Aspiring <span class="text">UX/UI</span> Designer</h1>
     <p class="text-start">
-      Allow me to introduce myself: My name is Kauthar Brandt, I a Full-Stack
-      Developer intern at Life Choices Academy  - 
+      Allow me to introduce myself: My name is Kauthar Brandt, I'm a Full-Stack
+      Developer intern at Life Choices Academy  - where i continuously improve myself.
     </p>
     <hr />
     <div class="columns text-start">
