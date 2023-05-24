@@ -5,7 +5,7 @@
       <h1 class="page-title text-start">Resume</h1>
     </div>
   </header>
-  <h2 class="section-title text-start">Education && Work Experience</h2>
+  <h2 class="section-title text-start">Education & Work Experience</h2>
 
   <div class="contain">
     <div class="information">
@@ -46,7 +46,7 @@
         <h6 class="text-start heading">Mondale High School</h6>
         <p class="title text-start">
           Subjects were Math, English, Afrikaans, Physics, Life Science, Life
-          Orientation, Geography. Matricukated with a Bachelors Certiificate
+          Orientation, Geography. Matriculated with a Bachelors Certiificate.
         </p>
       </div>
       <div class="media-element">
@@ -54,7 +54,7 @@
           src="https://i.postimg.cc/0QM3cdLj/ezgif-com-webp-to-jpg-1.jpg"
           alt=""
         />
-        <h6 class="text-start">Rev</h6>
+        <h6 class="text-start heading">Rev</h6>
         <p class="title text-start">
           Rev is an online transcription company. I was a captioner from
           September 2019 - August 2021
@@ -62,15 +62,15 @@
       </div>
       <div class="media-element">
         <img src="https://i.postimg.cc/4x5VSYtT/academy.jpg" alt="" />
-        <h6 class="text-start">Life Choices Academy</h6>
+        <h6 class="text-start heading">Life Choices Academy</h6>
         <p class="title text-start">
-          Participated in a 6 month Programme where I studied html, css,
-          bootstrap, javasript, vue.js, node.js, mysql
+          Participated in a 6 month programme where I studied html, css,
+          bootstrap, javasript, vue.js, node.js, mysql.
         </p>
       </div>
       <div class="media-element">
         <img src="https://i.postimg.cc/zGbYdg4y/studio.jpg" alt="" />
-        <h6 class="text-start">Life Choices Studio</h6>
+        <h6 class="text-start heading">Life Choices Studio</h6>
         <p class="title text-start">
           Currently learning UX/UI Design, Wordpress, Php and SEO
         </p>
@@ -106,7 +106,8 @@
     </div>
   </div>
   <p class="text-start cv">
-    For further infromation about me. please download my CV.
+    For further information about me, please download my CV. 
+    <!-- Or contact the number provided. -->
   </p>
   <div class="text-start cv">
     <a
@@ -208,7 +209,7 @@ ul {
 }
 
 .duration,
-.title {
+.title, .description {
   font-family: "Mulish";
 }
 .snaps-inline > * {

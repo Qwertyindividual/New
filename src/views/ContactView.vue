@@ -14,7 +14,7 @@
             class="col-7"
             ><i
               class="fa-brands fa-github fa-xl social"
-              style="color: #635f5f"
+              style="color: #40916C"
             ></i
           ></a>
           <a
@@ -22,20 +22,21 @@
             class="col-8 fw-bold"
             ><i
               class="fa-brands fa-linkedin fa-xl social"
-              style="color: #635f5f"
+              style="color: #40916C"
             ></i
           ></a>
         </div>
       </div>
+      <form action="https://formspree.io/f/mrgvbgjz" method="post">
       <div class="col col-5 col-bg">
         <div class="contact">
           <div class="inputbox text-start name">
-            <input type="text" for="name" required />
+            <input name="name" type="text" for="name" required />
             <span>Name</span>
             <i></i>
           </div>
           <div class="inputbox surname">
-            <input type="text" for="surname" required />
+            <input name="surname" type="text" for="surname" required />
             <span>Surname</span>
             <i></i>
           </div>
@@ -43,28 +44,34 @@
 
         <div class="contact">
           <div class="inputbox">
-          <input type="text" for="email" required />
+          <input name="email" type="text" for="email" required />
           <span>Email Address</span>
           <i></i>
         </div>
         <div class="inputbox">
-          <input type="number" for="number" required />
+          <input name="number" type="text" for="number" required />
           <span>Phone Number</span>
           <i></i>
         </div>
-        </div>
+        </div> 
 
         <div class="inputbox email">
-          <input type="text" for="subject" required />
+          <input name="subject" type="text" for="subject" required />
           <span>Subject</span>
           <i></i>
         </div>
         <div class="inputbox email">
-          <input type="text" for="message" required />
+          <input name="message" type="text" for="message" required />
           <span>Message</span>
           <i></i>
         </div>
+        <div class="inputbox email">
+          
+        <button class="btn-submit" type="submit">Submit</button>
+          
+        </div>
       </div>
+    </form>
     </div>
     <div class="columns meta">
       <div class="col col-6">
@@ -77,6 +84,7 @@
         <div class="columns text-center">
           <i class="fa-solid fa-envelope fa-lg icon" style="color: #ffffff"></i>
           <div class="info">brandtkauthar@gmail.com</div>
+          <i class="fa-regular fa-clipboard fa-xl icon clipboard" style="color: #ffffff;" ref="myText" v-on:click="copyText"></i>
         </div>
       </div>
       <div class="col col-6">
@@ -98,7 +106,20 @@ import FooterComponent from '@/components/FooterComponent.vue';
 export default {
   components: {
     FooterComponent
-  }
+  },
+  mounted() {
+    this.setFocus();
+  },
+  methods: {
+    copyText() {
+      const textToCopy = "brandtkauthar@gmail.com";
+      navigator.clipboard.writeText(textToCopy);
+      alert("Copied to your Clipboard");
+    },
+    setFocus() {
+      this.$refs.myText.focus();
+    },
+  },
 };
 </script>
 
@@ -113,6 +134,10 @@ h1 {
   margin-top: 1em;
 }
 
+
+.clipboard:hover {
+  cursor: pointer;
+}
 .sub-heading {
   font-family: "Mulish";
 }
@@ -145,6 +170,19 @@ img {
   margin: 0 auto;
 }
 
+button {
+  width: 100%;
+  padding: .5em 1em;
+  border: none;
+  font-family: "Playfair Display";
+  background: #B7E4C7;
+  border-radius: .5em;
+}
+
+button:hover {
+  background: #52B788;
+  color: white;
+}
 .meta {
   padding-top: 8em;
 }
@@ -171,6 +209,7 @@ img {
   align-items: flex-start;
   margin: 2em 0;
 }
+
 
 
 @media (max-width: 600px) {
@@ -226,6 +265,7 @@ img {
   background: #1b4332;
   padding: 1em;
   color: white;
+  width: 100%;
 }
 
 .inputbox {

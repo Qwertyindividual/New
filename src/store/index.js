@@ -164,10 +164,10 @@ export default createStore({
         name: "Aliyah du Toit",
         relation: "Colleague",
         testimonial:
-          "In the 2 months I have worked with Kauthar, it is clear that she is  a very hard-working, compassionate person. She never hesitates to help others and once she is faced with an issue, she will work at it until it is solved.",
+          "Kauthar is the most helpful and most caring person I know. She will never leave someone to struggle on their own when she knows that she's capable of helping them fix their problem, even if it is just to explain something to them. She is hard-working, dillligent and puts all her effort into her work. It's been an honor being her colleague for the last 7 months.",
         links: {
           github: "https://github.com/aliyahdutoit",
-          socials: "",
+          linkden: "https://www.linkedin.com/in/aliyah-du-toit-a4a2a8227/",
         },
         image: "https://i.postimg.cc/TPBKQ3y1/aliyah.jpg",
       },
@@ -179,7 +179,7 @@ export default createStore({
           "Kauthar is really fun, interesting and full-hearted person. She's so friendly, honest and lovely to be around. She is shy at first but as you get to know her, she becomes more comfortable with you. She's also kind, caring and a good judge of character.",
         links: {
           github: "https://github.com/ImraanBernksen",
-          socials: "",
+          linkden: "https://www.linkedin.com/in/imraanbernksen/",
         },
         image: "https://i.postimg.cc/LXLyXGtQ/imraan.jpg",
       },
@@ -190,8 +190,7 @@ export default createStore({
         testimonial:
           "Kauthar loves to work on her own. Has the ability to engage very well. She has the willingness to push herself out of her comfort zone in order to grow in all aspects.",
         links: {
-          github: "",
-          socials: "",
+          linkden: "https://www.linkedin.com/in/candice-amon-0ab044163/",
         },
         image: "https://i.postimg.cc/pLN8qyz7/candiuce.jpg",
       },
@@ -202,8 +201,8 @@ export default createStore({
         testimonial:
           "Kauthar is a free spirit who works hard to achieve her goals and puts her all in her work and a good team player.",
         links: {
-          github: "seabaraven@gmail.com",
-          socials: "seabaraven@gmail.com",
+          github: "https://github.com/Mafestire",
+          linkden: "https://www.linkedin.com/in/sibabalwe-mafestire-804364147/",
         },
         image: "https://i.postimg.cc/rmbN1TTN/seaba.jpg",
       },
@@ -214,8 +213,7 @@ export default createStore({
         testimonial:
           "Kauthar is not only a great student, but also a good help amongst her peers.Her ability to assist her peers with various issues while handling her own is admirable and shows her strength while learning and her ability to take what she's learnt and use it to it's fullest potential. She also has a good sense of humor and a bubbly personality.",
         links: {
-          github: "",
-          socials: "",
+          linkden: "https://www.linkedin.com/in/ryan-thomas-7694b8115/",
         },
         image: "https://i.postimg.cc/tJK1SmZP/ryan.jpg",
       },
@@ -227,18 +225,18 @@ export default createStore({
           "Kauthar is a determined and energetic worker who strives to achieve her goals in the most efficient way possible . Her personality lights up any conversation she participates in and is surely a lovely presence to have in the workplace .",
         links: {
           github: "https://github.com/kerenkittybruce",
-          socials: "https://www.instagram.com/kerenkittybruce/",
+          linkden: "https://www.linkedin.com/in/kerenchelseabruce/",
         },
         image: "https://i.postimg.cc/Xv0QF8nD/keren.jpg",
       },
       {
         id: 7,
-        name: "",
+        name: "Luntu Sogeyana",
         relation: "Colleague",
-        testimonial:"Kauthar Brandt is a soft-spoken and delightful person to be around. Her wonderful personality is only amplified by her intelligence and creativity, which she skillfully utilizes to develop some of the most impressive websites among her peers. I highly recommend considering her for any development roles; she would be a valuable addition to your team",
+        testimonial:"Kauthar Brandt is a soft-spoken and delightful person to be around. Her wonderful personality is only amplified by her intelligence and creativity, which she skillfully utilizes to develop some of the most impressive websites among her peers. I highly recommend considering her for any development roles; she would be a valuable addition to your team.",
          links: {
-          github: "https://github.com/kerenkittybruce",
-          socials: "https://www.instagram.com/kerenkittybruce/",
+          // github: "",
+          linkden: "https://www.linkedin.com/in/luntu-sogeyana-011118270/",
         },
         image: "https://i.postimg.cc/BZmMPSJm/DSC-3496.jpg",
       },
@@ -246,13 +244,13 @@ export default createStore({
         id: 8,
         name: "Konke Malindi",
         relation: "Colleague",
-        testimonial: "Kauthar has a mind that knows what,why and how to solve problems. She understand people and how to cater to their need making her very useful in any company. She has a beautiful eye for design and although she's quiet, she's very easy to talk and has very good people skills. Having her in any company would be making an excellent choice.",
+        testimonial: "Kauthar has a mind that knows what, why and how to solve problems. She understand people and how to cater to their needs, making her very useful in any company. She has a beautiful eye for design and although she's quiet, she's very easy to talk and has very good people skills. Having her in any company would be making an excellent choice.",
         links: {
-          github: "https://github.com/kerenkittybruce",
-          socials: "https://www.instagram.com/kerenkittybruce/",
+          github: "https://github.com/TheJeffRicardo/",
+          linkden: " https://www.linkedin.com/in/konke-malindi-228101256/",
         },
         image: "https://i.postimg.cc/RhWsVyJS/DSC-3528.jpg",
-      }
+      },
     ],
     resume: [
       {

@@ -21,9 +21,9 @@
     <p class="profile-position text-start">{{ testimonial.relation }}</p>
     <p class="profile-info text-start">{{ testimonial.testimonial }}</p>
     <ul class="social-list">
-      <li><a href="#" class="social-link"><i class="fab fa-dribbble-square"></i></a></li>
-      <li><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
-      <li><a href="#" class="social-link"><i class="fab fa-twitter-square"></i></a></li>
+      <li><a :href="testimonial.links.linkden" target="_blank" class="social-link"><i class="fa-brands fa-linkedin fa-sm"></i></a></li>
+      <li><a :href="testimonial.links.github" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+      <!-- <li><a href="#" class="social-link"><i class="fab fa-twitter-square"></i></a></li> -->
     </ul>
   </div>
 </div>
