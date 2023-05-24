@@ -235,7 +235,7 @@ export default createStore({
         relation: "Colleague",
         testimonial:"Kauthar Brandt is a soft-spoken and delightful person to be around. Her wonderful personality is only amplified by her intelligence and creativity, which she skillfully utilizes to develop some of the most impressive websites among her peers. I highly recommend considering her for any development roles; she would be a valuable addition to your team.",
          links: {
-          // github: "",
+          github: "https://github.com/ManakiX",
           linkden: "https://www.linkedin.com/in/luntu-sogeyana-011118270/",
         },
         image: "https://i.postimg.cc/BZmMPSJm/DSC-3496.jpg",
